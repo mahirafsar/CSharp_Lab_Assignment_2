@@ -1,0 +1,7 @@
+F:\C#\C# mid term code\Lab_Assignment_2\Lab_Assignment_2\bin\Debug\Lab_Assignment_2.exe.config
+F:\C#\C# mid term code\Lab_Assignment_2\Lab_Assignment_2\bin\Debug\Lab_Assignment_2.exe
+F:\C#\C# mid term code\Lab_Assignment_2\Lab_Assignment_2\bin\Debug\Lab_Assignment_2.pdb
+F:\C#\C# mid term code\Lab_Assignment_2\Lab_Assignment_2\obj\Debug\Lab_Assignment_2.csprojAssemblyReference.cache
+F:\C#\C# mid term code\Lab_Assignment_2\Lab_Assignment_2\obj\Debug\Lab_Assignment_2.csproj.CoreCompileInputs.cache
+F:\C#\C# mid term code\Lab_Assignment_2\Lab_Assignment_2\obj\Debug\Lab_Assignment_2.exe
+F:\C#\C# mid term code\Lab_Assignment_2\Lab_Assignment_2\obj\Debug\Lab_Assignment_2.pdb
