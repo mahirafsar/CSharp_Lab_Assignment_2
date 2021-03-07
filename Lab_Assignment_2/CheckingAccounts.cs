@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +10,7 @@ namespace Lab_Assignment_2
     {
         override public void Withdraw(double amount)
         {
-            if (this.Balance - amount >= 0)
+            if (amount > 0 && amount<=this.Balance  &&this.Balance - amount >= 0)
             {
                 this.Balance -= amount;
                 Console.WriteLine(amount + " Taka Withdraw Done");
