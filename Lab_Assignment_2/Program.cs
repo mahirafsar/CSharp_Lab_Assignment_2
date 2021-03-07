@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,8 +10,8 @@ namespace Lab_Assignment_2
     {
         static void Main(string[] args)
         {
-            SavingsAccount savings = new SavingsAccount();
-            CheckingAccounts checking = new CheckingAccounts();
+            Account savings = new SavingsAccount();
+            Account checking = new CheckingAccounts();
             string choice, choice1,choice3;
             //choice = Console.ReadLine();
             int choice2,choice4,choice5,choice6;
@@ -22,7 +22,7 @@ namespace Lab_Assignment_2
             do
             {
                 Console.WriteLine("Command 'open' for Open an account");
-                Console.WriteLine("Command 'account' Perform transections on an account");
+                Console.WriteLine("Command 'account' for Perform transections on an account");
                 Console.WriteLine("Command 'quit' for Exit the application");
 
                 Console.WriteLine("Please enter a command");
@@ -35,9 +35,9 @@ namespace Lab_Assignment_2
                     case "open":
                         do
                         {
-                            Console.WriteLine("1.Command 'savings' for open a Savings Account");
-                            Console.WriteLine("2.Command 'checking' for open a Checking Account");
-                            Console.WriteLine("3.Command 'quit' for Exit the application");
+                            Console.WriteLine("Command 'savings' for open a Savings Account");
+                            Console.WriteLine("Command 'checking' for open a Checking Account");
+                            Console.WriteLine("Command 'quit' for Exit the application");
                             Console.WriteLine("Please enter a command");
 
                             choice1 = Console.ReadLine();
@@ -58,7 +58,7 @@ namespace Lab_Assignment_2
 
                                     Console.WriteLine("Starting Balance: " + savings.StartingBalance);
 
-                                    Console.WriteLine("Account Number: "+savings.AccNumber());
+                                    //Console.WriteLine("Account Number: "+savings.AccNumber());
 
                                     Console.WriteLine("Now Account is created");
                                     savingsAccount=1;
@@ -79,7 +79,7 @@ namespace Lab_Assignment_2
 
                                     Console.WriteLine("Starting Balance: " + checking.StartingBalance);
 
-                                    Console.WriteLine("Account Number: " + checking.AccNumber());
+                                    //Console.WriteLine("Account Number: " + checking.AccNumber());
 
                                     Console.WriteLine("Now Account is created");
                                     checkingAccount = 1;
